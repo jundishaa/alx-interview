@@ -11,7 +11,6 @@ def pascal_triangle(n):
         list: A list of lists, where each inner list represents a row
               of Pascal's triangle. Returns an empty list if n <= 0.
     """
-    
     if n <= 0:
         return []  # Return an empty list for non-positive n
 
@@ -26,3 +25,4 @@ def pascal_triangle(n):
         triangle.append(row)  # Add the row to the triangle
 
     return triangle  # Return the complete triangle
+
